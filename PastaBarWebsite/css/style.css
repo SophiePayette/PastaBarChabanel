@@ -183,6 +183,9 @@ ul.language-toggle  {
 	border: 2px solid #da3c21;
 	background-color: #da3c21;
 }
+.spacer{
+	width: 100px;
+}
 /* Header Section */
 .intro {
 	display: table;
