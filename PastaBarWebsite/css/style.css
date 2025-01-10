@@ -508,7 +508,7 @@ textarea{
 	font-weight: 600;
 	
 }
-form#form1 {
+#form1 {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
