@@ -409,6 +409,7 @@ header .intro-text {
 #contact {
 	padding: 100px 0;
 	background: #032d23;
+	text-align: center;
 }
 #contact .contact-item p {
 	font-size: 15px;
@@ -447,7 +448,7 @@ label {
 	font-size: 12px;
 	font-weight: 400;
 	font-family: 'Open Sans', sans-serif;
-	float: left;
+	float: center;
 }
 #contact .form-control {
 	display: block;
@@ -494,6 +495,34 @@ color: #999;
 	margin-bottom: 6px;
 	display: inline-block;
 }
+
+#fs-field {
+	margin-bottom: 25px;
+}
+textarea#message {
+	display: table-row;
+}
+textarea{
+	width: 500px;
+	height: 500px;
+	font-weight: 600;
+	
+}
+form#form1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+	background-color: #032d23;
+	font-weight: 600;
+}
+input#button-blue {
+    margin-bottom: 25px;
+}
+
+
 /* Footer Section*/
 #footer {
 	background: #032d23;
